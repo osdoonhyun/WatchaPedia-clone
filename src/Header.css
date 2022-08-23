@@ -1,0 +1,23 @@
+.header {
+  height: 70px;
+  display:flex;
+  align-items: center;
+  position:fixed;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+}
+
+
+
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.header_option {
+  display:flex;
+  justify-content: space-evenly;
+}
