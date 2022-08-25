@@ -22,9 +22,9 @@ const SignUp = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    let data;
     try {
       if (!ourUer) {
+        let data;
         data = await createUserWithEmailAndPassword(authService, email, password);
         setOurUser(true);
         console.log('회원가입 됨!');

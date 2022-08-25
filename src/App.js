@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import Auth from './Login';
-import Login from './Login';
-import SignUp from './SignUp';
+import Login from './login';
+import SignUp from './signUp';
+import MovieDetail from './movieDetail';
+import SearchMovies from './searchMovies';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
         <h2>WatchaPedia</h2>
         <Login />
         <SignUp />
+        {/* <MovieDetail /> */}
+        <SearchMovies />
       </div>
     </div>
   );
